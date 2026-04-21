@@ -97,21 +97,21 @@ const SocialProof = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {/* Before/After Images will be here */}
           <div className="bg-[#13243f] rounded-2xl overflow-hidden shadow-xl border border-white/5">
-            <img src="/exterior.png" alt="Exterior Paint Before and After" className="w-full aspect-[4/3] object-cover" />
+            <img src="exterior.png" alt="Exterior Paint Before and After" className="w-full aspect-[4/3] object-cover" />
             <div className="p-6">
               <h3 className="font-bold text-xl mb-2">Exterior Transformation</h3>
               <p className="text-white/70 text-sm">Flaking and faded to flawless neighborhood standout.</p>
             </div>
           </div>
           <div className="bg-[#13243f] rounded-2xl overflow-hidden shadow-xl border border-white/5">
-            <img src="/cabinets.png" alt="Cabinet Paint Before and After" className="w-full aspect-[4/3] object-cover" />
+            <img src="cabinets.png" alt="Cabinet Paint Before and After" className="w-full aspect-[4/3] object-cover" />
             <div className="p-6">
               <h3 className="font-bold text-xl mb-2">Cabinet Refinishing</h3>
               <p className="text-white/70 text-sm">From dated 90s oak to modern studio bright white.</p>
             </div>
           </div>
           <div className="bg-[#13243f] rounded-2xl overflow-hidden shadow-xl border border-white/5">
-            <img src="/interior.png" alt="Interior Paint Before and After" className="w-full aspect-[4/3] object-cover" />
+            <img src="interior.png" alt="Interior Paint Before and After" className="w-full aspect-[4/3] object-cover" />
             <div className="p-6">
               <h3 className="font-bold text-xl mb-2">Living Space Update</h3>
               <p className="text-white/70 text-sm">Damage repaired, texture matched, seamlessly painted.</p>
