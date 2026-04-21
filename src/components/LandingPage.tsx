@@ -8,15 +8,15 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <div className="flex flex-col w-[110px] leading-none">
             <div className="flex justify-between w-full font-sans font-black text-2xl text-white tracking-widest">
-              {"WALEX".split("").map((char, i) => (
+              {"WALLEX".split("").map((char, i) => (
                 <span key={i} className="inline-block">{char}</span>
               ))}
             </div>
           </div>
         </div>
         <div className="flex items-center gap-6">
-          <a href="tel:2145550123" className="hidden md:flex items-center gap-2 text-white font-bold hover:text-urgency-orange transition-colors">
-            <Phone className="w-5 h-5" /> (214) 555-0123
+          <a href="tel:9729045132" className="hidden md:flex items-center gap-2 text-white font-bold hover:text-urgency-orange transition-colors">
+            <Phone className="w-5 h-5" /> (972) 904-5132
           </a>
           <button className="cta-button cta-pulse px-6 py-3 font-extrabold text-sm md:text-base">
             Get Your Free Quote
@@ -64,8 +64,8 @@ const Hero = () => {
           <button className="w-full sm:w-auto cta-button cta-pulse px-8 py-5 text-xl">
             Get My Free Quote → <span className="block text-sm font-medium opacity-90">Takes 60 Seconds</span>
           </button>
-          <a href="tel:2145550123" className="w-full sm:w-auto bg-white/5 border border-white/10 text-white px-8 py-5 rounded-xl font-bold text-lg hover:bg-white/10 transition-all">
-            Or Call Now: (214) 555-0123
+          <a href="tel:9729045132" className="w-full sm:w-auto bg-white/5 border border-white/10 text-white px-8 py-5 rounded-xl font-bold text-lg hover:bg-white/10 transition-all">
+            Or Call Now: (972) 904-5132
           </a>
         </div>
       </div>
@@ -155,7 +155,7 @@ const Guarantee = () => {
       </div>
       <div className="max-w-4xl mx-auto relative z-10 text-center">
         <ShieldCheck className="w-20 h-20 mx-auto text-white mb-8" />
-        <h2 className="text-4xl md:text-6xl font-black text-white mb-6">The WALEX Triple-Shield Guarantee</h2>
+        <h2 className="text-4xl md:text-6xl font-black text-white mb-6">The WALLEX Triple-Shield Guarantee</h2>
         <p className="text-xl text-white/80 mb-12">We can offer this because 98% of our clients rate us 5 stars.</p>
         
         <div className="space-y-6 text-left">
@@ -217,7 +217,7 @@ const FinalCTA = () => {
         <button className="w-full sm:w-auto cta-button cta-pulse px-12 py-6 text-2xl mb-6">
           Get My Free Quote Now
         </button>
-        <p className="text-white/60 text-lg">Or speak to an expert: <a href="tel:2145550123" className="text-white font-bold underline">(214) 555-0123</a></p>
+        <p className="text-white/60 text-lg">Or speak to an expert: <a href="tel:9729045132" className="text-white font-bold underline">(972) 904-5132</a></p>
       </div>
     </section>
   );
@@ -227,8 +227,8 @@ const Footer = () => {
   return (
     <footer className="bg-black py-12 text-center text-white/40 text-sm border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="font-black tracking-widest text-white/50 text-xl">WALEX</div>
-        <p>© 2026 WALEX. All rights reserved.</p>
+        <div className="font-black tracking-widest text-white/50 text-xl">WALLEX</div>
+        <p>© 2026 WALLEX. All rights reserved.</p>
         <div className="flex gap-4">
           <a href="#" className="hover:text-white transition-colors">Privacy</a>
           <a href="#" className="hover:text-white transition-colors">Terms</a>
